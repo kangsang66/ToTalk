@@ -1,0 +1,33 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "01.js",
+  "scripts": {
+    "dev": "nodemon main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@rongcloud/engine": "^5.6.1",
+    "@rongcloud/imlib-next": "^5.6.1",
+    "bcryptjs": "^2.4.3",
+    "koa": "^2.13.4",
+    "koa-body": "^5.0.0",
+    "koa-router": "^12.0.0",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.23.1"
+  },
+  "devDependencies": {
+    "@koa/multer": "^3.0.0",
+    "crypto-js": "^4.1.1",
+    "jsonwebtoken": "^8.5.1",
+    "koa-static": "^5.0.0",
+    "koa2-cors": "^2.0.6",
+    "multer": "^1.4.5-lts.1",
+    "nanoid": "^4.0.0",
+    "nodemon": "^2.0.20",
+    "socket.io": "^4.5.4"
+  }
+}
